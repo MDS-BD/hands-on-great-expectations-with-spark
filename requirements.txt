@@ -1,2 +1,2 @@
-great-expectations==0.15.13
+great-expectations==0.15.20
 pyspark==2.4.5
