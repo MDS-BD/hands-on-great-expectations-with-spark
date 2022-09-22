@@ -1,6 +1,4 @@
-FROM jupyter/pyspark-notebook:619e9cc2fc07
-
-ENV PYTHONPATH="/usr/local/spark-2.4.5-bin-hadoop2.7/python/lib/pyspark.zip;/usr/local/spark-2.4.5-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip"
+FROM jupyter/pyspark-notebook:python-3.8.8
 
 COPY requirements.txt ./
 RUN pip install -r requirements.txt

@@ -1,3 +1,8 @@
+# Great Expectations ge id
+.ge_store_backend_id
+
+# Jupyter Notebooks
+.ipynb_checkpoints
 
 .env-e
 

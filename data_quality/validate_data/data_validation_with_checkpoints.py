@@ -82,9 +82,10 @@ def main():
         "filesystem_datasource": {
             "class_name": "Datasource",
             "module_name": "great_expectations.datasource",
-            'execution_engine': {
-                'module_name': 'great_expectations.execution_engine',
-                'class_name': 'SparkDFExecutionEngine'
+            "execution_engine": {
+                "module_name": "great_expectations.execution_engine",
+                "class_name": "SparkDFExecutionEngine",
+                "force_reuse_spark_context": "true"
             },
             "data_connectors": {
                 "runtime_data_connector": {
@@ -180,7 +181,7 @@ def main():
     logger.info('Validation Checkpoint running...')
 
     run_id = {
-        "run_name": args.dataset_name + "_" + expectation_suite + "_run",
+        "run_name": args.dataset_name + "_" + args.suite_name + "_run",
         "run_time": datetime.datetime.now(datetime.timezone.utc)
     }
 
