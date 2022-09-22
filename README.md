@@ -48,8 +48,8 @@ Custom Expectations with the support of an IDE.
 
 The development environment run on a Docker container with:
  - Jupyter Notebook
- - Python 3.6
- - Spark 2.4.5
+ - Python 3.8
+ - Spark 3.1.1
 
 **Before to start**: install [Docker](https://docs.docker.com/).
 
