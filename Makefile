@@ -36,6 +36,6 @@ else
 	-v ${CURDIR}:/app/src \
 	-w /app/src \
 	mediaset-data-quality-jupyter-dev \
-	spark-submit \
+	python \
 	./data_quality/generate_data_doc/generate_expectation_suite_doc_site.py
 endif

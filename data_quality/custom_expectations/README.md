@@ -111,8 +111,10 @@ as a Remote Python Interpreter:
 `mediaset-data-quality-jupyter-dev` and press `OK`.
 5. Edit the `Run/Debug Configurations` of the project to properly launch the 
 docker image
-6. Insert the `Script path` selecting the path of the module `.py` that you 
+6. Overwrite the `Environment Variables` with the string 
+   `PYTHONPATH=/usr/local/spark/python`
+7. Insert the `Script path` selecting the path of the module `.py` that you 
    want to run (in this case the custom expectation module you want to test)
-7. Press `Run` button.
-8. The Run console will show you the output of the `.py` module.
+8. Press `Run` button.
+9. The Run console will show you the output of the `.py` module.
 

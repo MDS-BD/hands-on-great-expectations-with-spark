@@ -1,5 +1,9 @@
 # Great Expectations ge id
 .ge_store_backend_id
+site/
+validations/
+checkpoints/
+
 
 # Jupyter Notebooks
 .ipynb_checkpoints
