@@ -1,5 +1,7 @@
 # Hands-on Great Expectations with Spark
 
+_This is the companion repository related to the article "[How to monitor Data Lake health status at scale](https://medium.com/towards-data-science/how-to-monitor-data-lake-health-status-at-scale-d0eb058c85aa)" published on **Towards Data Science** tech blog._
+
 In this repository you can find a complete guide to perform Data Quality checks 
 over an in-memory Spark dataframe using the  python package 
 [Great Expectations](https://greatexpectations.io/).
